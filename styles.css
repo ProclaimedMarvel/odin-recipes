@@ -1,35 +1,78 @@
 /* index.html */
 
 body {
-    font-family: "Trip Sans", Helvetica, "Open Sans", Verdana, Futura;
+    font-family: "Helvetica", Georgia, "Open Sans", Verdana, sans-serif;
+    background-image: radial-gradient(#4f9decb1, #3f7dbbb1);
+
+}
+
+button {
+    background-color: #0e1d2b20;
+    border: 2.39px solid #21416215;
+    border-radius: 8px;
+    padding: 10px;
     text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+a {
     color: white;
-    background-color: rgb(176, 147, 108);
-    border: solid 5px rgb(85, 82, 82);
-    border-radius: 15px;
-    margin-top: 20px;
-    margin-left: 22px;
-    margin-right: 22px;
-    padding-bottom: 153px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:link {
+    color: white;
+}
+
+.border {
+    border: 3px solid #555252;
+    border-radius: 10px;
+    width: 1425px;
+    padding: 0px 20px 530px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
 }
 
 .list {
+    font-weight: 500;
     text-align: center;
-    padding: 150px;
+    margin: auto;
     font-size: 40px;
+    list-style: none;
+    padding: 280px 0px 0px 0px;
 }
 
-.trap {
-    display: inline-block;
-    list-style: none;
+.keto {
+    text-align: center;
+    color: #ffffff;
 }
 
 .heading {
+    font-weight: bolder;
     text-decoration: underline;
 }
 
-/* jollof.html */
+/* jollof.html, french_toast.html and pancakes.html */
 
 .body2 {
     text-align: center;
+}
+
+.list2 {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+.heading2 {
+    text-decoration: underline;
 }

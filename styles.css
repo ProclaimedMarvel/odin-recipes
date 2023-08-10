@@ -1,0 +1,35 @@
+/* index.html */
+
+body {
+    font-family: "Trip Sans", Helvetica, "Open Sans", Verdana, Futura;
+    text-align: center;
+    color: white;
+    background-color: rgb(176, 147, 108);
+    border: solid 5px rgb(85, 82, 82);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 22px;
+    margin-right: 22px;
+    padding-bottom: 153px;
+}
+
+.list {
+    text-align: center;
+    padding: 150px;
+    font-size: 40px;
+}
+
+.trap {
+    display: inline-block;
+    list-style: none;
+}
+
+.heading {
+    text-decoration: underline;
+}
+
+/* jollof.html */
+
+.body2 {
+    text-align: center;
+}

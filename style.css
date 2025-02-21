@@ -1,0 +1,17 @@
+body {
+  font-family: "Atkinson Hyperlegible", Helvetica, "Courier New", monospace;
+  background-color: #d7b3d8;
+  color: #212b9d;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  font-size: 30px;
+}
+
+.content {
+  font-family: "DIN-Regular", sans-serif;
+  font-size: 20px;
+  display: inline;
+}
